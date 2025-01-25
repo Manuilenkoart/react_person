@@ -27,7 +27,7 @@ export const alex = {
 export const App = () => (
   <div className="App">
     {[misha, olya, alex].map(p => (
-      <Person person={p} key={p} />
+      <Person person={p} key={p.name} />
     ))}
   </div>
 );
